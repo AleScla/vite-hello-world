@@ -1,6 +1,6 @@
 <script>
-import AppHeader from './components/AppHeader.vue';
-
+import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue'
 export default {
   data() {
     return {
@@ -8,16 +8,22 @@ export default {
     }
   },
   components:{
-    AppHeader
+    AppTitle,
+    AppHero
   }
   
 }
 </script>
 
 <template>
-  <AppHeader/>
+  
   <div>
+    <AppTitle/>
     <button @click="count++">Click me {{ count }}</button>
+  </div>
+
+  <div>
+    <AppHero/>    
   </div>
 </template>
 

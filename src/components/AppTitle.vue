@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      message: 'Template vite vue'
+      message: 'Prima app con Vite'
     }
   },
 }
